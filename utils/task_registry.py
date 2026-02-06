@@ -96,7 +96,7 @@ TASK_REGISTRY = {
     },
     "coref": {
         "name": "Coreference Resolution",
-        "module": corefeference,
+        "module": coreference,
         "function": coreference.coreference_resolution,
         "input_type": "TEXT",
         "default_input": "Angela told Mary that she would help her.",
