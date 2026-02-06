@@ -1,6 +1,6 @@
 # Registry for all NLP tasks to drive the UI dynamically
 from models import (
-    bert_mlm, gpt, ner, qa, sentiment, coref, relation, style, summarization, translation, masking_demo
+    bert_mlm, gpt, ner, qa, sentiment, coreference, relation, style, summarization, translation, masking_demo
 )
 
 TASK_REGISTRY = {
@@ -96,8 +96,8 @@ TASK_REGISTRY = {
     },
     "coref": {
         "name": "Coreference Resolution",
-        "module": coref,
-        "function": coref.coreference_resolution,
+        "module": corefeference,
+        "function": corefeference.coreference_resolution,
         "input_type": "TEXT",
         "default_input": "Angela told Mary that she would help her.",
         "default_model": "biu-nlp/f-coref",
