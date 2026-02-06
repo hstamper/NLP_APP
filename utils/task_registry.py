@@ -97,7 +97,7 @@ TASK_REGISTRY = {
     "coref": {
         "name": "Coreference Resolution",
         "module": corefeference,
-        "function": corefeference.coreference_resolution,
+        "function": coreference.coreference_resolution,
         "input_type": "TEXT",
         "default_input": "Angela told Mary that she would help her.",
         "default_model": "biu-nlp/f-coref",
