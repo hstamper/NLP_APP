@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+huggingface_hub
+watchdog
+urllib3<2.0
+sentencepiece
+protobuf
+fastcoref
